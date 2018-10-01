@@ -1,3 +1,4 @@
-console.log("hello");
-console.log("modified by branch jerry");
-cosole.log("modified by unclewanger2 master");
+var person = require('./person');
+console.log(person.name);
+console.log(person.age);
+console.log(global)
